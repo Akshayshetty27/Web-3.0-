@@ -1,23 +1,23 @@
 // Harkirath course  JS BASICS
-var name = "Akshay ";
-console.log(" hellp ", name);
+var nam = "Akshay ";
+console.log(" hellp ", nam);
 
-name = true;
-console.log(" hellp ", name);
+nam = true;
+console.log(" hellp ", nam);
 
-name = 5;
-console.log(" hellp ", name);
+nam = 5;
+console.log(" hellp ", nam);
 
-console.log(" hellp ", name);
+console.log(" hellp ", nam);
 
-function printt(name) {
-  console.log(" hello ", name);
+function printt(nam) {
+  console.log(" hello ", nam);
 }
 
 printt("akshay");
 
-nam = ["akshay", "dk", "vk", " Kl ", "Jitesh ", " Rapa "];
-while (1) {
-  num = Math.floor(Math.random(0, nam.length - 1) * 10);
-  printt(nam[num], " ", num);
-}
+// nam = ["akshay", "dk", "vk", " Kl ", "Jitesh ", " Rapa "];
+// while (1) {
+//   num = Math.floor(Math.random(0, nam.length - 1) * 10);
+//   printt(nam[num], " ", num);
+// }
