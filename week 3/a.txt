@@ -1,0 +1,7 @@
+Asynch fuction  reading  file   using   library  fs 
+
+
+--  first   using require function 
+  data type  name = requir("fs");
+
+  fs.readFileSynch
