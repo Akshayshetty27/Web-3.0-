@@ -1,0 +1,7 @@
+pwd -> 
+
+terminal  will always be in a certain folder
+pwd  helpd  to  locate where are we in the folder 
+
+
+cd -change Desktop 
