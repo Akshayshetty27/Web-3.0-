@@ -3,4 +3,4 @@ nvm  ->  node version mangaer
 node  -> 
 
 
-npm -> 
+npm -> node 
