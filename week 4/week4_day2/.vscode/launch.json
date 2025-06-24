@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Grid.html",
+            "file": "c:\\Users\\shett\\OneDrive\\Desktop\\starting with webdev  course\\Web-3.0-\\week 4\\week4_day2\\Grid.html"
+        }
+    ]
+}

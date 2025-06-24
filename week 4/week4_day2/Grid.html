@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        margin: 0 auto;
+        height: 30vh;
+        width: 80vw;
+        background-color: yellowgreen;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 5px;
+      }
+      .child1 {
+        background-color: blue;
+      }
+      .child2 {
+        background-color: red;
+      }
+      .main {
+        margin-top: 30px;
+        padding: 50px 0;
+        height: 40vh;
+        width: 80vw;
+        background-color: plum;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin: 0 auto;
+      }
+      .box11 {
+        background-color: blue;
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+        gap: 5px;
+      }
+      .box21 {
+        background-color: green;
+      }
+      .box23 {
+        background-color: blueviolet;
+      }
+      .box22 {
+        background-color: red;
+        display: grid;
+        grid-template-columns: 1fr 2fr 3fr;
+      }
+      .box333 {
+        background-color: yellow;
+      }
+      .box33 {
+        background-color: lightblue;
+      }
+      .box3 {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="child1"></div>
+      <div class="child2"></div>
+    </div>
+
+    <div class="main">
+      <div class="box11">
+        <div class="box21"></div>
+        <div class="box23"></div>
+      </div>
+      <div class="box22">
+        <div class="box3"></div>
+        <div class="box33"></div>
+        <div class="box333"></div>
+      </div>
+    </div>
+  </body>
+</html>
