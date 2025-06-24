@@ -7,6 +7,7 @@
     <style>
       body {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
       }
@@ -15,10 +16,46 @@
         height: 40vh;
         width: 70vw;
         background-color: red;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      p {
+        font-weight: 800;
+        background-color: yellow;
+      }
+
+      .box2 {
+        margin-top: 20vh;
+        height: 20vh;
+        width: 80vw;
+        background-color: yellowgreen;
+        display: flex;
+        justify-content: baseline;
+      }
+      .child1 {
+        height: 100%;
+        background-color: blue;
+        flex-grow: 1;
+      }
+      .child2 {
+        height: 100%;
+        background-color: red;
+        flex-grow: 2;
       }
     </style>
   </head>
   <body>
-    <div class="box">Hello World</div>
+    <div class="box">
+      <p>Hello World</p>
+      <p>Hello !!!</p>
+      <p>World !!</p>
+    </div>
+
+    <div class="box2">
+      <div class="child1">child 1</div>
+      <div class="child2">child 2</div>
+    </div>
   </body>
 </html>
