@@ -1,0 +1,26 @@
+Bash and terminal commands 
+
+pwd ->   present working directory 
+
+ls - list
+
+ls -lr ( list file in reverse order )
+
+ls - s ( list  based on size )
+
+
+ 
+ cat  - >   view the  file  content 
+
+ touch to create new fiile 
+
+
+ to add new content to existing file 
+   ''  cat >> filename  content ''
+
+  to move a file to folder  
+   ->   mv  from_folder_name   to_folder_name
+
+    cp ->   copy  file 
+
+ 
