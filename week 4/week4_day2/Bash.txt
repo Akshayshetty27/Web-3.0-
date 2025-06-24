@@ -1,0 +1,4 @@
+Bash commands
+
+chmod ugo-rwx
+
