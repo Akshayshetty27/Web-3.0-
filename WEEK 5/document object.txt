@@ -1,0 +1,11 @@
+document object functions to dunamicaly acces  html body 
+document
+        .getelementbuId();
+        .getElementsByClassName();
+        .querySelector();
+        .querySelectorAll();
+        .getElementsByName();
+
+to get the content of the   webpage 
+ .value 
+ .innerHTML
