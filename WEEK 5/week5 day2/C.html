@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Elements Through DOM</title>
+  </head>
+  <body>
+    <h2>Adding Elements</h2>
+  </body>
+  <script>
+    let h = document.createElement("div");
+    h.innerHTML = "<p>  dynamic adding<p>";
+    document.body.appendChild(h);
+  </script>
+</html>
