@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    counter :
+    <p id="counter">0</p>
+    <button id="stop">stop</button>
+  </body>
+  <script>
+    let counter = 1;
+    const obj = document.querySelector("#counter");
+    let stop = document.getElementById("stop");
+    let val = true;
+    const inerval = setInterval(() => {
+      console.log(counter);
+      obj.textContent = counter;
+      counter++;
+    }, 1000);
+    stop.addEventListener("click", () => {
+      clearInterval(inerval);
+    });
+  </script>
+</html>
