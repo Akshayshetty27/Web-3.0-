@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div id="todo-1">
+        <p>take class</p>
+        <button onclick="deleteTodo(1)">delete</button>
+      </div>
+      <div id="todo-2">
+        <div id="todo-1">
+          <p>leave class</p>
+          <button onclick="deleteTodo(2)">delete</button>
+        </div>
+      </div>
+      <div id="todo-3">
+        <div id="todo-1">
+          <p>repat class</p>
+          <button onclick="deleteTodo(3)">delete</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function deleteTodo(index) {
+      const ele = document.getElementById("todo-" + index);
+      ele.parentNode.removeChild(ele);
+    }
+  </script>
+</html>
