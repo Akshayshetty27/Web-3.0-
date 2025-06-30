@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <input type="text" id="todoContent" />
+    <button onclick="addtodo()">Add Todo</button>
+    <div id="todoList"></div>
+
+    <script>
+      let c = 0;
+
+      function addtodo() {
+        let inputvalue = document.getElementById("todoContent");
+
+        c = c + 1;
+        let current = c;
+        let todoWrapper = document.createElement("div");
+        todoWrapper.id = "wrapper-" + current;
+
+        let temp = document.createElement("h2");
+        temp.innerHTML = `${c}. ${inputvalue.value}`;
+
+        let btn = document.createElement("button");
+        btn.id = "btn" + c;
+        btn.innerText = "delete";
+
+        btn.addEventListener("click", () => {
+          let wrapper = document.getElementById("wrapper-" + current);
+          if (wrapper) {
+            wrapper.remove();
+          }
+        });
+        todoWrapper.appendChild(temp);
+        todoWrapper.appendChild(btn);
+
+        let main = document.getElementById("todoList");
+        main.appendChild(todoWrapper);
+      }
+    </script>
+  </body>
+</html>
