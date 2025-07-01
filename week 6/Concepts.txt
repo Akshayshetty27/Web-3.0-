@@ -1,0 +1,17 @@
+NPM ( Node Packege Manager) :
+
+ is packege manager for Javascript to handle  external libraries and the dependency .
+
+
+ uses : 
+  Initializing   
+      npm  init   or  npm init -y 
+
+  run 
+      npm  run test 
+    
+ install external libraries 
+      npm  install  " " ;
+
+
+
